@@ -72,7 +72,14 @@ html {
 	background-position: center;
 	background-size: cover;
 }
-
+.tecnology{
+  color: white;
+  background-image: url("./assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
 
 
 
