@@ -1,12 +1,14 @@
 .App {
   text-align: center;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,6 +29,49 @@
 .App-link {
   color: #61dafb;
 }
+
+.topnav {
+  background-color: hsla(0, 0%, 20%, 0.689);
+  overflow: hidden;
+  position: sticky;
+  top: 0%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.firs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./assets/home/background-home-desktop.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
